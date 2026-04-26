@@ -6,7 +6,7 @@ CHAT_ID = os.environ["CHAT_ID"]
 
 data = {
     "chat_id": CHAT_ID,
-    "question": "Кто будет в эту субботу на занятии?",
+    "question": "Кто будет на занятии?",
     "options": ["Буду (фолловер)💃", "Буду (лидер)🕺", "Преподаватели👨‍🏫👩‍🏫", "Пропущу🦭"],
     "is_anonymous": False,
     "allows_multiple_answers": False
